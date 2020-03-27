@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/zhanggm1002/springcloud-demo-0325.git
+          uri: https://github.com/zfy0428/eureka.git
           search-paths:
           - configfiles
       label: dev
