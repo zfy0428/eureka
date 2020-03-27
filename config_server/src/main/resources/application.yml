@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config_server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/zhanggm1002/springcloud-demo-0325.git
+          search-paths:
+          - configfiles
+      label: dev
+server:
+  port: 8888
